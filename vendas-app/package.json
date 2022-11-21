@@ -1,0 +1,29 @@
+{
+  "name": "vendas-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@4us-dev/utils": "0.0.11",
+    "@brazilian-utils/brazilian-utils": "^1.0.0-rc.12",
+    "axios": "^0.27.2",
+    "bulma": "^0.9.4",
+    "formik": "^2.2.9",
+    "next": "12.2.01",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "swr": "^1.3.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.15",
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1",
+    "typescript": "4.3.5"
+  }
+}
